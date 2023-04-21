@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+.navbar{
+    font-family: 'Arvo', serif;
+    display: flex;
+    width: 100vw;
+    height: 5vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar__link{
+    text-decoration: none;
+    color: black;
+}

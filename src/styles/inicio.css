@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+body{
+    background-color: #F3F3F3;
+    font-family: 'Arvo', serif;
+}
+
+main{
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 350px;
+    background-color: #FEFEFE;
+    box-shadow: 0px 0px 1px white;
+    border-radius: 4px;
+}
+
+.login__texts{
+    width: 100%;
+    height: 10%;
+}
+
+p{
+    text-align: center;
+}
+
+
+
+.inputs__container{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input{
+    border: none;
+    background-color: #F3F3F3;
+    width: 80%;
+    height: 40px;
+    border-radius: 4px;
+}
+
+input:focus{
+    outline: none;
+}
+
+input::placeholder{
+    position: relative;
+    left: 10px;
+}
+
+.inputs__submit{
+    width: 80%;
+    height: 40px;
+    border: none;
+    background-color: #18181B;
+    border-radius: 4px;
+    color: white;
+}
+
+.inputs__submit:hover{
+    cursor: pointer;
+}
+
+.login__registro{
+    text-align: center;
+}
+
+.mensajeparaelprofe__container{
+    display: none;
+    width: 500px;
+    height: 500px;
+}

@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+body{
+    background-color: #F3F3F3;
+    font-family: 'Arvo', serif;
+    overflow-x: hidden;
+}
+
+.grupos__boton{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.grupos__input{
+    margin-right: 10px;
+    border: 2px solid;
+    border-color: #18181B;
+    border-radius: 4px;
+    width: 150px;
+
+}
+
+#gruposboton{
+    height: 5vh;
+}
+
+#gruposinput{
+    height:  90%
+}
+
+.grupos__crear{
+    padding: 10px 15px;
+    margin-right: 20px;
+    background-color:  #18181B;
+    border: 0px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.grupos__main{
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-auto-flow: row;
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 80px;
+}
+
+@media screen and (max-width: 770px) {   
+.grupos__main{
+    grid-template-columns: 1fr ;
+}
+#gruposboton{
+    align-items: center;
+    height: 5vh;
+}
+
+ }

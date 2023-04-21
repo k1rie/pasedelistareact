@@ -1,0 +1,19 @@
+.grupos__alumnos{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 1fr;
+    grid-auto-flow: row;
+    height: 10vh;
+    width: 100vw;
+}
+
+
+.grupos__alumno{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    border-top: 3px solid  #18181B;
+    border-bottom: 3px solid #18181B;
+}

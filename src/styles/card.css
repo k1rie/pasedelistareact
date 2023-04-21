@@ -1,0 +1,11 @@
+.grupos__card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 251px;
+    width: 240px;
+    background-color: #18181B;
+    border-radius: 15px;
+    color: #FFFFFF;
+    cursor: pointer;
+}

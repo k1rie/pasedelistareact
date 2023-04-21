@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+body{
+    background-color: #F3F3F3;
+    font-family: 'Arvo', serif;
+}
+
+.codigoqr{
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.codigoqr__main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+width: 400px;
+height: 400px;
+
+}
+
+#codigoqr__scan{
+    width: 80%;
+    height: 80%;
+    outline: none;
+    border: none;
+}
+
+#reader {
+    width: 600px;
+}
+#result {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.succesattended{
+    display: none;
+}

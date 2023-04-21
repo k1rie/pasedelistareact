@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+body{
+    background-color: #F3F3F3;
+    font-family: 'Arvo', serif;
+}
+
+.grupos__main{
+    height: 10vh;
+}
+
+.grupos__boton{
+    height: 5vh;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.fecha__main{
+    display: flex;
+    align-items: center;
+}
+
+.reportelink{
+    display: none;
+    margin-right: 10px;
+}
+
+.grupos__input{
+    margin-right: 10px;
+    border: 2px solid;
+    border-color: #18181B;
+    border-radius: 4px;
+    height: 70%;
+}
+
+.grupos__crear{
+    padding: 10px 15px;
+    margin-right: 20px;
+    background-color:  #18181B;
+    border: 0px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.alumnos__info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.grupos__alumnos{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 1fr;
+    grid-auto-flow: row;
+    height: 85vh;
+    width: 100vw;
+}
+
+@media screen and (max-width: 900px) {
+    .grupos__boton{
+        height: 20vh;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    .grupos__input{
+        margin: 4px;
+    }
+}
